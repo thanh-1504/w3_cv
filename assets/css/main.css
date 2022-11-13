@@ -1,0 +1,248 @@
+:root {
+    --primary-color: #009688;
+    --text-color: #757575;
+    --white-color: #fff;
+    --job-color: #696767;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.content {
+     display: flex;
+}
+
+.introduce__left {
+    margin: 16px 0 0 16px;
+    width: 31%;
+    height: auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    padding-bottom: 30px;
+}
+
+.introduce__right {
+    width: 69%;
+    height: auto;
+}
+
+/* Introduce Section */
+.introduce__img {
+    width: 100%;
+    position: relative;
+}
+
+.introduce__img-text {
+    position: absolute;
+    top: 226px;
+    left: 39px;
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.introduce__skill-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 2px 0 0 20px;
+}
+
+.introduce__skill-items {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 23px;
+    color: var(--text-color);
+}
+
+.introduce__skill-icon,
+.introduce__languages-icon {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin: 14px 20px 0 0 ;
+}
+
+.border--separation {
+    width: 90%;
+    margin: 20px auto;
+    border: 1px solid #e1e1e1;
+}
+
+/* Skill Section */
+.introduce__body {
+    padding: 0 16px;
+}
+
+.introduce__skill-text,
+.introduce__languages-text {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 27px;
+    color: var(--text-color);
+}
+
+.introduce__skill-name,
+.introduce__languages-name {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 23px;
+    color: var(--text-color);
+}
+
+.introduce__percent-wrap {
+    background-color: #f1f1f1;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.introduce__percent {
+    width: 90%;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    height: 18px;
+}
+
+.introduce__number {
+    text-align: center;
+    display: block;
+    line-height: 18px;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+/* Introduce Right Section */
+.work__exp,
+.education {
+    margin: 16px 0 0 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.work__exp__heading,
+.education__heading {
+    padding: 28px 0 0 28px;
+}
+
+.work__exp-icon,
+.education-icon {
+    font-size: 3.6rem;
+    color: var(--primary-color);
+    line-height: 36px;
+}
+
+.work__exp-text,
+.education-text {
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 45px;
+    color: var(--text-color);
+    margin: 0 0 0 24px;
+}
+
+.work__exp-job,
+.education-location {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 27px;
+    color: var(--job-color);
+}
+
+.work__exp-calendar,
+.education-calendar {
+    font-size: 1.6rem;
+    line-height: 16px; 
+    font-weight: 400;
+    color: var(--primary-color);
+
+}
+
+.work__exp-calendar-icon,
+.education-calendar-icon {
+    margin-right: 18px;
+}
+
+.work__exp--current {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    padding: 4px 8px;
+    border-radius: 6px;
+    line-height: 24px;
+}
+
+.work__exp-desc,
+.education-desc {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.work__exp__body,
+.education__body {
+    padding-left: 28px;
+    margin-top: 30px;
+}
+
+.work__exp__footer,
+.education__footer {
+    padding-left: 28px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}   
+
+/* Footer */
+.footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    margin-top: 16px;
+}
+
+.wrap {
+    padding: 20px 20px;
+}
+
+.footer-text,
+.footer--copy-right {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 23px;
+    color: var(--white-color);
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-items {
+   display: inline-block;
+}
+
+.footer-items-link {
+   text-decoration: none;
+}
+
+.footer-icon {
+    font-size: 1.5rem;
+    color: var(--white-color);
+    line-height: 15px;
+    margin: 0 1px;
+    position: relative;
+    left: -23px;
+}
+
+.footer-icon:hover {
+    opacity: 0.7;
+}
+
+.footer--copy-right-link {
+    color: var(--white-color);
+}
+
+
+
+
+
+
+
+
+
+
+

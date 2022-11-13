@@ -1,0 +1,32 @@
+@media only screen and (max-width:600px) {
+   /* Content */
+   .content {
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+   }
+    
+    .introduce__left {
+        width: 100%;
+        margin: 0;
+    }
+
+    .introduce__img-text {
+        top: 200px;   
+    }
+
+    .introduce__right {
+        width: 100%;
+    }
+
+    .work__exp,
+    .education {
+        margin-left: 0;
+    }
+
+    /* Footer */
+    .footer {
+        width: 100%;
+    }
+
+}
