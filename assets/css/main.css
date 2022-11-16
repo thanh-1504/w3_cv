@@ -12,31 +12,37 @@ html {
 
 .content {
      display: flex;
+     width: 90%;
+     margin: 15px auto;
 }
 
 .introduce__left {
-    margin: 16px 0 0 16px;
-    width: 31%;
+    width: 35%;
     height: auto;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     padding-bottom: 30px;
+    margin-top: 15px;
 }
 
 .introduce__right {
-    width: 69%;
+    width: 55%;
     height: auto;
 }
 
 /* Introduce Section */
+.introduce__img-wrap {
+    display: block;
+    position: relative;
+}
+
 .introduce__img {
     width: 100%;
-    position: relative;
 }
 
 .introduce__img-text {
     position: absolute;
-    top: 226px;
-    left: 39px;
+    left: 4%;
+    bottom: 5%;
     font-size: 3rem;
     font-weight: 400;
     margin: 0;
