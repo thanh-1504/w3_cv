@@ -12,21 +12,21 @@ html {
 
 .content {
      display: flex;
-     width: 90%;
      margin: 15px auto;
 }
 
 .introduce__left {
-    width: 35%;
+    width: 30%;
     height: auto;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     padding-bottom: 30px;
-    margin-top: 15px;
+    margin: 0 0 0 15px;
 }
 
 .introduce__right {
-    width: 55%;
+    width: 70%;
     height: auto;
+    margin: 0 15px 0 15px;
 }
 
 /* Introduce Section */
