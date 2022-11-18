@@ -120,8 +120,11 @@ html {
 /* Introduce Right Section */
 .work__exp,
 .education {
-    margin: 16px 0 0 16px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.education {
+    margin-top: 10px;
 }
 
 .work__exp__heading,
